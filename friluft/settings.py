@@ -87,8 +87,7 @@ WSGI_APPLICATION = 'friluft.wsgi.application'
 # }
 
 DATABASES = {
-    'default': dj_database_url.parse(os.environ.get("postgresql://neondb_owner:npg_3MylFQDgoH5b@ep-summer-frog"
-    "-a2tb82wg.eu-central-1.aws.neon.tech/lens_clock_couch_248056"))
+    'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
 
 
