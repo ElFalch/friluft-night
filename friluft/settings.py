@@ -91,6 +91,11 @@ DATABASES = {
     "-a2tb82wg.eu-central-1.aws.neon.tech/lens_clock_couch_248056"))
 }
 
+
+if 'test' in sys.argv:
+    DATABASES['default']['ENGINE'] = 'django.db.backends.sqlite3'
+
+
 CSRF_TRUSTED_ORIGINS = [
     "https://*.codeinstitute-ide.net/",
     "https://*.herokuapp.com"
