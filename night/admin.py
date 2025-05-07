@@ -3,6 +3,7 @@ from .models import Post
 from .models import Review
 from django_summernote.admin import SummernoteModelAdmin
 
+
 @admin.register(Post)
 class PostAdmin(SummernoteModelAdmin):
 
