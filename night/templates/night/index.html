@@ -1,11 +1,11 @@
 {% extends "base.html" %}
+{% load static %}
 
 {% block content %}
 
 <!-- index.html content starts here -->
 <div class="container-fluid">
     <div class="row">
-
         <!-- Blog Entries Column -->
         <div class="col-12 mt-3 left">
             <div class="row">
@@ -14,6 +14,12 @@
                     <div class="card mb-4">
                         <div class="card-body">
                             <div class="image-container">
+                                {% if "placeholder" in post.featured_image.url %}
+                                <img class="card-img-top" src="{% static 'images/campsite-by-loch-ochiltree.jpg' %}" alt="placeholder image">
+                                {% else %}
+                                <img class="card-img-top" src=" {{ post.featured_image.url }}"
+                                alt="{{ post.title }}">
+                                {% endif %}
                                 <div class="image-flash">
                                     <p class="author">Author: {{ post.author }}</p>
                                 </div>
