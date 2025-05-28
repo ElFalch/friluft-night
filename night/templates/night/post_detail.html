@@ -49,7 +49,7 @@
         <!-- We want a for loop inside the empty control tags
           to iterate through each review in reviews -->
         {% for review in reviews %}
-        <div class="p-2 comments
+        <div class="p-2 
           {% if not review.approved and review.author == user %}
           faded{% elif not review.approved %} d-none{% endif %}">
           <p class="font-weight-bold">
