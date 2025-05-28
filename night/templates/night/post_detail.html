@@ -30,7 +30,7 @@
             </div>
         </div>
     </div>
-     <!-- Displaying count of comments -->
+     <!-- Displaying count of reviews -->
   <div class="row">
     <div class="col-12">
       <strong class="text-secondary">
@@ -41,17 +41,17 @@
       <hr>
     </div>
   </div>
-  <!-- Displaying Comments -->
+  <!-- Displaying Reviews -->
   <div class="row">
     <div class="col-md-8 card mb-4  mt-3 ">
       <h3>Reviews:</h3>
       <div class="card-body">
         <!-- We want a for loop inside the empty control tags
-          to iterate through each comment in comments -->
+          to iterate through each review in reviews -->
         {% for review in reviews %}
         <div class="p-2 comments
-          {% if not comment.approved and comment.author == user %}
-          faded{% elif not comment.approved %} d-none{% endif %}">
+          {% if not review.approved and review.author == user %}
+          faded{% elif not review.approved %} d-none{% endif %}">
           <p class="font-weight-bold">
             {{ review.author }}
             <span class="font-weight-normal">
@@ -71,7 +71,7 @@
         {% endfor %}
       </div>
     </div>
-     <!-- Creating New Comments -->
+     <!-- Creating New Reviews -->
     <div class="col-md-4 card mb-4 mt-3">
       <div class="card-body">
         {% if user.is_authenticated %}
