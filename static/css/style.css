@@ -10,7 +10,11 @@ body {
     font-family: "Fugaz One", sans-serif;
     font-size: 1.4rem;
     font-weight: 400;
-    color: #4A4A4F;
+    color: #39373c;
+}
+
+.navbar {
+    background-color: #fda048;
 }
 
 .light-bg {
@@ -18,7 +22,7 @@ body {
 }
 
 .dark-bg {
-    background-color: #3c544c;
+    background-color: #39373c;
 }
 
 .main-bg {
@@ -38,8 +42,7 @@ body {
     position: absolute;
     bottom: 5%;
     min-width: 30%;
-    left: -2px;
-    background-color: #fda048;
+    background-color: #3c544c;
 }
 
 .scale {
@@ -63,7 +66,7 @@ body {
 }
 
 .masthead-text {
-    background-color:#39373c;
+    background-color:#3c544c;
     color: white;
     position: relative;
 }
@@ -76,11 +79,10 @@ body {
 
 .post-link {
     text-decoration: none;
-    color: #445261;
+    color: #3c544c;
 }
 
-.post-link:hover,
-.page-link {
+.post-link:hover{
     color: #fda048;
 }
 
@@ -91,23 +93,24 @@ body {
 
 .post-subtitle {
     margin-left: 5%;
-    color: lightgray;
+    color: #bcbfc4;
 }
 
 .btn-signup,
-.btn-edit {
-    background-color: #188181;
-    color: #fff;
+.btn-edit,
+.page-link {
+    background-color: #fda048;
+    color: #39373c;
 }
 
 .btn-signup:hover,
 .btn-signup:active {
-    background-color: #fff;
-    color: #23BBBB;
+    background-color: #39373c;
+    color: #fda048;
 }
 
 .link {
-    color: #23BBBB;
+    color: #fda048;
     text-decoration: none;
 }
 
@@ -135,10 +138,11 @@ body {
     border: none;
 }
 
-.faded {
+
+.approval  {
     color: rgb(172, 175, 175);
 }
 
-.approval {
-    color: rgb(222, 146, 168);
+.faded {
+    color: rgb(172, 175, 175);
 }
