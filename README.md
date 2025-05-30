@@ -10,6 +10,12 @@ The purpose of this website is to provide a platform where people can find, shar
 
 - Wild campers looking to find somewhere to stay, share or review somewhere they have stayed. 
 
+### User Stories
+
+The user stories for this project can be found [here](https://github.com/users/ElFalch/projects/4/views/1).
+
+- These user stories include some future ideas (labelled as won't-have). 
+
 ## Visual Design
 
 ### Colours
