@@ -44,5 +44,20 @@ Icons are from the [FontAwsome](https://fontawesome.com/v4/icons/) icon library.
 
 Default Image: 
 
-- An image of a tent by the beach at sunset was used for it's clear, fresh colours that reflect those of the colour scheme, whilst being inviting and reflecting the purpose of the website (to spread the joy of wild camping!)
+- An image of a tent by the beach at sunset was used for it's bright, fresh colours that reflect those of the colour scheme, whilst being inviting and reflecting the purpose of the website (to spread the joy of wild camping!)
 
+# Page Elements 
+
+## All Pages 
+
+Navbar: The Bootstrap navbar contains links to the index and login or logout pages of the site and has the Friluft Night logo in its brand. The navbar links collapse down to a burger icon with a dropdown menu on smaller devices.
+
+Footer: A Footer with links to social media accounts, presented as icons. 
+
+## Home Page
+
+The index page is titled "home" and contains the a paginated list of published wild camping spots with images, author and time added information, aswell as links to more details. 
+
+## Post Detail View
+
+Each post detail view contains the above information about each site, as well as a more detailed description, a list of reviews and a form for adding reviews (if user is signed in). 
