@@ -8,7 +8,9 @@ The purpose of this website is to provide a platform where people can find, shar
 
 ### Target Audience 
 
-- Wild campers looking to find somewhere to stay, share or review somewhere they have stayed. 
+- Wild campers looking to find somewhere to stay 
+
+- Wild campers looking to contribute to the community by sharing or reviewing somewhere they have stayed. 
 
 ### User Stories
 
