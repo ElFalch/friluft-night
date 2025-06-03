@@ -4,6 +4,7 @@ from django.contrib import messages
 from django.http import HttpResponseRedirect
 from .models import Post, Review
 from .forms import ReviewForm
+from .forms import PostForm
 
 # Create your views here.
 
@@ -12,7 +13,6 @@ class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1)
     template_name = "night/index.html"
     paginate_by = 6
-
 
 def post_detail(request, slug):
     """
@@ -78,3 +78,36 @@ def review_edit(request, slug, review_id):
             messages.add_message(request, messages.ERROR, 'Error updating review!')
 
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
+
+def add_post(request):
+    """
+    Display add_post page.
+
+    **Context**
+
+    **Template:**
+
+    :template:`night/add_post.html`
+    """
+
+    if request.method == "POST":
+        post_form = PostForm(data=request.POST)
+        if post_form.is_valid():
+            post = post_form.save(commit=False)
+            post.author = request.user
+            post.save()
+            messages.add_message(
+                request, messages.SUCCESS,
+                'Post submitted and awaiting approval'
+            )
+
+    post_form = PostForm()
+
+    return render(
+        request,
+        "night/add_post.html",
+        {
+            "post_form": post_form,
+        },
+    )
