@@ -15,6 +15,9 @@
                 <h1 class="post-title">{{ post.title }}</h1>
                 <!-- Post author goes before the | the post's created date goes after -->
                 <p class="post-subtitle">{{ post.author }} | {{ post.created_on }}</p>
+                {% if user.is_authenticated and post.author == user %}
+                <button class="btn btn-post-edit" post_id="{{ post.id }}">Edit</button>
+                {% endif %}    
             </div>
             <div class="d-none d-md-block col-md-6 masthead-image">
               {% if "placeholder" in post.featured_image.url %}
@@ -75,8 +78,10 @@
           </p>
           {% endif %}
            {% if user.is_authenticated and review.author == user %}
-          <button class="btn btn-edit"
+          <button class="btn btn-post-edit"
             review_id="{{ review.id }}">Edit</button>
+           <button class="btn btn-post-delete"
+            post_id="{{ post.id }}">Delete</button>  
           {% endif %}
         </div>
         <!-- Our for loop ends here -->
@@ -104,9 +109,30 @@
   </div>
 </div>
 
+<!-- Delete confirmation modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteModalLabel">Delete review?</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to delete your review?
+                This action cannot be undone.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <a id="deleteConfirm" href="#" class="btn
+          btn-danger">Delete</a>
+            </div>
+        </div>
+    </div>
+</div>
 
 {% endblock content %}
 
 {% block extras %}
 <script src="{% static 'js/reviews.js' %}"></script>
+<script src="{% static 'js/posts.js' %}"></script>
 {% endblock %}
