@@ -7,4 +7,8 @@ urlpatterns = [
     path('<slug:slug>/', views.post_detail, name='post_detail'),
     path('<slug:slug>/edit_review/<int:review_id>',
          views.review_edit, name='review_edit'),
+    path('<slug:slug>/edit_post/<int:post_id>',
+         views.post_edit, name='post_edit'), 
+    path('<slug:slug>/delete_post/<int:post_id>',
+         views.post_delete, name='post_delete'),
 ]
