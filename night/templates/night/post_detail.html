@@ -17,6 +17,7 @@
                 <p class="post-subtitle">{{ post.author }} | {{ post.created_on }}</p>
                 {% if user.is_authenticated and post.author == user %}
                 <button class="btn btn-post-edit" post_id="{{ post.id }}">Edit</button>
+                <button class="btn btn-post-delete" post_id="{{ post.id }}">Delete</button>
                 {% endif %}    
             </div>
             <div class="d-none d-md-block col-md-6 masthead-image">
