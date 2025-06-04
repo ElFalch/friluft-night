@@ -98,6 +98,7 @@ body {
 
 .btn-signup,
 .btn-edit,
+.btn-post-edit,
 .page-link {
     background-color: #fda048;
     color: #39373c;
@@ -126,7 +127,8 @@ body {
     background: transparent;
 }
 
-.btn-delete {
+.btn-delete,
+.btn-post-delete {
     color: #fff;
     background: #E84610;
 }
