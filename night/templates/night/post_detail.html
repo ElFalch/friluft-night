@@ -31,6 +31,27 @@
     </div>
 </div>
 
+<!-- Delete confirmation modal -->
+<div class="modal fade" id="postDeleteModal" tabindex="-1" aria-labelledby="postDeleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="postDeleteModalLabel">Delete post?</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to delete your post?
+                This action cannot be undone.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <a id="postDeleteConfirm" href="#" class="btn
+          btn-danger">Delete</a>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="container">
     <div class="row">
         <div class="col card mb-4  mt-3 left  top">
@@ -124,7 +145,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <a id="deleteConfirm" href="#" class="btn
+                <a id="postdeleteConfirm" href="#" class="btn
           btn-danger">Delete</a>
             </div>
         </div>
