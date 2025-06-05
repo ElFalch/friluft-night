@@ -57,14 +57,16 @@
         <div class="col card mb-4  mt-3 left  top">
             <div class="card-body">
                 <!-- The post content goes inside the card-text. -->
-                <!-- Use the | safe filter inside the template tags -->
+                <!-- Uses the | safe filter inside the template tags -->
                 <p class="card-text">
                     {{ post.content | safe }}
                 </p>
             </div>
         </div>
     </div>
+
      <!-- Displaying count of reviews -->
+
   <div class="row">
     <div class="col-12">
       <strong class="text-secondary">
@@ -75,12 +77,14 @@
       <hr>
     </div>
   </div>
+
   <!-- Displaying Reviews -->
+
   <div class="row">
     <div class="col-md-8 card mb-4  mt-3 ">
       <h3>Reviews:</h3>
       <div class="card-body">
-        <!-- We want a for loop inside the empty control tags
+        <!-- For loop inside the empty control tags
           to iterate through each review in reviews -->
         {% for review in reviews %}
         <div class="p-2 
@@ -106,7 +110,7 @@
             post_id="{{ post.id }}">Delete</button>  
           {% endif %}
         </div>
-        <!-- Our for loop ends here -->
+        <!-- For loop ends here -->
         {% endfor %}
       </div>
     </div>
