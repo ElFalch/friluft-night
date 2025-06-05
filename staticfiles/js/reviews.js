@@ -1,11 +1,11 @@
-const editButtons = document.getElementsByClassName("btn-edit");
+const reviewEditButtons = document.getElementsByClassName("btn-review-edit");
 const reviewText = document.getElementById("id_body");
 const reviewForm = document.getElementById("reviewForm");
-const submitButton = document.getElementById("submitButton");
+const reviewSubmitButton = document.getElementById("reviewSubmitButton");
 
-const deleteModal = new bootstrap.Modal(document.getElementById("deleteModal"));
-const deleteButtons = document.getElementsByClassName("btn-delete");
-const deleteConfirm = document.getElementById("deleteConfirm");
+const reviewDeleteModal = new bootstrap.Modal(document.getElementById("reviewDeleteModal"));
+const reviewDeleteButtons = document.getElementsByClassName("btn-review-delete");
+const reviewDeleteConfirm = document.getElementById("reviewDeleteConfirm");
 
 /**
 * Initializes edit functionality for the provided edit buttons.
@@ -17,12 +17,12 @@ const deleteConfirm = document.getElementById("deleteConfirm");
 * - Updates the submit button's text to "Update".
 * - Sets the form's action attribute to the `edit_review/{reviewId}` endpoint.
 */
-for (let button of editButtons) {
+for (let button of reviewEditButtons) {
   button.addEventListener("click", (e) => {
     let reviewId = e.target.getAttribute("review_id");
     let reviewContent = document.getElementById(`review${reviewId}`).innerText;
     reviewText.value = reviewContent;
-    submitButton.innerText = "Update";
+    reviewSubmitButton.innerText = "Update";
     reviewForm.setAttribute("action", `edit_review/${reviewId}`);
   });
 }
@@ -37,10 +37,10 @@ for (let button of editButtons) {
 * - Displays a confirmation modal (`deleteModal`) to prompt 
 * the user for confirmation before deletion.
 */
-for (let button of deleteButtons) {
+for (let button of reviewDeleteButtons) {
   button.addEventListener("click", (e) => {
     let reviewId = e.target.getAttribute("review_id");
-    deleteConfirm.href = `delete_review/${reviewId}`;
-    deleteModal.show();
+    reviewDeleteConfirm.href = `delete_review/${reviewId}`;
+    reviewDeleteModal.show();
   });
 }
