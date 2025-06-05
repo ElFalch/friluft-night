@@ -14,6 +14,7 @@ class PostList(generic.ListView):
     template_name = "night/index.html"
     paginate_by = 6
 
+
 def post_detail(request, slug):
     """
     Display an individual :model:`night.Post`.
@@ -57,6 +58,7 @@ def post_detail(request, slug):
         },
     )
 
+
 def review_edit(request, slug, review_id):
     """
     view to edit reviews
@@ -96,6 +98,7 @@ def review_delete(request, slug, review_id):
 
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
+
 def add_post(request):
     """
     Display add_post page.
@@ -128,6 +131,7 @@ def add_post(request):
         },
     )
 
+
 def post_edit(request, slug, post_id):
     """
     view to edit posts
@@ -149,6 +153,7 @@ def post_edit(request, slug, post_id):
             messages.add_message(request, messages.ERROR, 'Error updating post!')
 
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
 
 def post_delete(request, slug, post_id):
     """
