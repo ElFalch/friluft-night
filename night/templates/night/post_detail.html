@@ -100,9 +100,9 @@
           </p>
           {% endif %}
            {% if user.is_authenticated and review.author == user %}
-          <button class="btn btn-edit"
+          <button class="btn btn-review-edit"
             review_id="{{ review.id }}">Edit</button>
-           <button class="btn btn-delete"
+           <button class="btn btn-review-delete"
             post_id="{{ post.id }}">Delete</button>  
           {% endif %}
         </div>
