@@ -69,3 +69,58 @@ The add post page is titled "recommend" and contains a form which allows users t
 Each post detail page contains the above information about each site, as well as a more detailed description, list of reviews and a form for adding reviews (if user is signed in), which must be approved by admin before being displayed to other users. 
 
 Users can also edit their reviews and delete them. 
+
+
+# Deployment 
+
+This project was deployed to Heroku. The deployed site can be found here.
+
+## Forking the GitHub Repository
+
+1. To create your own copy of a GitHub repository that you can edit, you must fork the repository using the following steps:
+
+2. Open the repository you want to fork.
+
+3. Click the fork button in the top-right corner of the screen.
+
+4. Choose a new name for the repository, if you wish.
+
+5. Click create fork.
+
+
+## Local Deployment 
+
+### Cloning your Github Repository to Visual Studio Code
+
+1. In your computer's file system, create a folder for the new project within the folder containing your VS Code projects.
+
+2. Open the folder for the new project in VS Code and open a new terminal.
+
+3. Navigate to your GitHub dashboard and open the repository you want to clone.
+
+4. click on the code dropdown menu and copy the URL.
+
+5. In the VS code terminal, enter git clone and paste the URL with a space and full stop at the end. For example:
+
+git clone https://github.com/ElFalch/seabird-survey-simulator.git .
+
+6. You should now see the repository files on the left hand side of the screen and be able to push changes to Git.
+
+### Install dependencies
+pip install -r requirements.txt
+
+### Run the application locally
+python manage.py runserver
+
+
+## Heroku Deployment 
+
+1. Create a new Heroku application
+
+2. Connect the GitHub repository
+
+3. Configure environment variables and build settings
+
+4. Enable automatic deployments from main branch
+
+5. Click on deploy from main branch and open the app once complete (build progress can be monitored in the actvity panel)
