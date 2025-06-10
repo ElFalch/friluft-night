@@ -56,8 +56,16 @@ Footer: A Footer with links to social media accounts, presented as icons.
 
 ## Home Page
 
-The index page is titled "home" and contains the a paginated list of published wild camping spots with images, author and time added information, aswell as links to more details. 
+The index page is titled "home" and contains the a paginated list of published & approved wild camping spots with images, author and time added information, aswell as links to more details. 
 
-## Post Detail View
+Users can also edit their own posts using the same form as in the add post page, aswell as delete them.
 
-Each post detail view contains the above information about each site, as well as a more detailed description, a list of reviews and a form for adding reviews (if user is signed in). 
+## Add Post
+
+The add post page is titled "recommend" and contains a form which allows users to add a post title, description and image.
+
+## Post Detail
+
+Each post detail page contains the above information about each site, as well as a more detailed description, list of reviews and a form for adding reviews (if user is signed in), which must be approved by admin before being displayed to other users. 
+
+Users can also edit their reviews and delete them. 
