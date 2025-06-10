@@ -15,10 +15,6 @@
                 <h1 class="post-title">{{ post.title }}</h1>
                 <!-- Post author goes before the | the post's created date goes after -->
                 <p class="post-subtitle">{{ post.author }} | {{ post.created_on }}</p>
-                {% if user.is_authenticated and post.author == user %}
-                <button class="btn btn-post-edit" post_id="{{ post.id }}">Edit</button>
-                <button class="btn btn-post-delete" post_id="{{ post.id }}">Delete</button>
-                {% endif %}    
             </div>
             <div class="d-none d-md-block col-md-6 masthead-image">
               {% if "placeholder" in post.featured_image.url %}
@@ -31,26 +27,6 @@
     </div>
 </div>
 
-<!-- Delete confirmation modal -->
-<div class="modal fade" id="postDeleteModal" tabindex="-1" aria-labelledby="postDeleteModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="postDeleteModalLabel">Delete post?</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                Are you sure you want to delete your post?
-                This action cannot be undone.
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <a id="postDeleteConfirm" href="#" class="btn
-          btn-danger">Delete</a>
-            </div>
-        </div>
-    </div>
-</div>
 
 <div class="container">
     <div class="row">
@@ -160,5 +136,4 @@
 
 {% block extras %}
 <script src="{% static 'js/reviews.js' %}"></script>
-<script src="{% static 'js/posts.js' %}"></script>
 {% endblock %}
