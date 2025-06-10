@@ -132,15 +132,15 @@ def add_post(request):
     )
 
 
-def post_edit(request, slug, post_id):
+def post_edit(request, post_id):
     """
     view to edit posts
     """
+    post = get_object_or_404(Post, pk=post_id)
+    post_form = PostForm(instance=post)
+
     if request.method == "POST":
 
-        queryset = Post.objects.filter(status=1)
-        post = get_object_or_404(queryset, slug=slug)
-        post = get_object_or_404(Post, pk=post_id)
         post_form = PostForm(data=request.POST, instance=post)
 
         if post_form.is_valid() and post.author == request.user:
@@ -152,15 +152,20 @@ def post_edit(request, slug, post_id):
         else:
             messages.add_message(request, messages.ERROR, 'Error updating post!')
 
-    return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+        return HttpResponseRedirect(reverse('home'))
+ 
+    return render(
+        request,
+        "night/add_post.html",
+        {
+            "post_form": post_form,
+        },
+    )        
 
-
-def post_delete(request, slug, post_id):
+def post_delete(request, post_id):
     """
     view to delete post
     """
-    queryset = Post.objects.filter(status=1)
-    post = get_object_or_404(queryset, slug=slug)
     post = get_object_or_404(Post, pk=post_id)
 
     if post.author == request.user:
@@ -169,4 +174,4 @@ def post_delete(request, slug, post_id):
     else:
         messages.add_message(request, messages.ERROR, 'You can only delete your own post!')
 
-    return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+    return HttpResponseRedirect(reverse('home'))
