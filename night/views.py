@@ -86,8 +86,6 @@ def review_delete(request, slug, review_id):
     """
     view to delete review
     """
-    queryset = Post.objects.filter(status=1)
-    post = get_object_or_404(queryset, slug=slug)
     review = get_object_or_404(Review, pk=review_id)
 
     if review.author == request.user:
