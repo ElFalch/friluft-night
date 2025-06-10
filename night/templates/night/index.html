@@ -11,7 +11,8 @@
             <div class="row">
                 {% for post in post_list %}
                 <div class="col-md-4">
-                    <div class="card mb-4">
+                    <div class="card mb-4 {% if not post.approved and post.author == user %}
+                            faded{% elif not post.approved %} d-none{% endif %}">
                         <div class="card-body">
                             <div class="image-container">
                                 {% if "placeholder" in post.featured_image.url %}
@@ -27,6 +28,10 @@
                             <a href="{% url 'post_detail' post.slug %}" class="post-link">
                                 <h2 class="card-title">{{ post.title }}</h2>
                             </a>
+                            {% if user.is_authenticated and post.author == user %}
+                                <button class="btn btn-post-edit" post_id="{{ post.id }}"><a href="{% url 'add_post'%}">Edit</a></button>
+                                <button class="btn btn-post-delete" post_id="{{ post.id }}">Delete</button>
+                            {% endif %}    
                             {% if not post.approved and post.author == user %}
                             <p class="approval">
                              This post is awaiting approval
@@ -43,10 +48,31 @@
             <div class="row">
                 {% endif %}
                 {% endfor %}
-
             </div>
         </div>
     </div>
+
+    <!-- Delete confirmation modal -->
+<div class="modal fade" id="postDeleteModal" tabindex="-1" aria-labelledby="postDeleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="postDeleteModalLabel">Delete post?</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to delete your post?
+                This action cannot be undone.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <a id="postDeleteConfirm" href="#" class="btn
+          btn-danger">Delete</a>
+            </div>
+        </div>
+    </div>
+</div>
+
     {% if is_paginated %}
     <nav aria-label="Page navigation">
         <ul class="pagination justify-content-center">
@@ -64,5 +90,9 @@
     {% endif %}
 </div>
 
-<!-- index.html content ends here -->
+
+{% endblock content %}
+
+{% block extras %}
+<script src="{% static 'js/posts.js' %}"></script>
 {% endblock %}
