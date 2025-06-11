@@ -58,7 +58,7 @@ Footer: A Footer with a message saying "Adventure awaits!"
 
 The index page is titled "home" and contains the a paginated list of published & approved wild camping spots with images, author and time added information, aswell as links to more details. 
 
-There are buttons allowing users to edit their own posts and delete them, aswell as move between the pages of listed posts.
+There are buttons allowing users to edit their own posts and delete them, aswell as move between the pages of listed posts. If the userr selects the edit button, they are directed to another page. If the delete button is selected, a pop up appears asking users to confirm they would like to delete the post. 
 
 ![first index page screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/home-page/index-page-1.png "first index page screenshot")
 ![second index page screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/home-page/index-page-2.png "second index page screenshot")
