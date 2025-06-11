@@ -70,22 +70,26 @@ There are buttons allowing users to edit their own posts and delete them, aswell
 
 ### Edit Post 
 
+A form, prepopulated with the information from the post selected to edit allows users to make any changes they need, but only if they adhere to the coditins of the form. 
+
 ![First edit post screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/edit-post/edit-post-1.png "first edit post screenshot")
 ![Second edit post screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/home-page/index-page-2.png "second edit post screenshot")
 
 
 ## Add Post
 
-The add post page is titled "recommend" and contains a form which allows users to add a post title, description and image.
+The add post page is titled "recommend" and contains a form which allows users to add a post title, description and image (if they are signed in). 
 
 ![Add post screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/add-post/add-post-form.png "add post screenshot")
 
+Once posts have been added, they will not be displayed to other users until they have been approved by admin. Until approval is obtained, posts will only be visible to logged-in users who have written them with a message saying "this post is waiting for approval". 
 
 ## Post Detail
 
-Each post detail page contains the above information about each site, as well as a more detailed description, list of reviews and a form for adding reviews (if user is signed in), which must be approved by admin before being displayed to other users. 
+Each post detail page contains the above information about each site, as well as a more detailed description, list of reviews and a form for adding reviews (if user is signed in), which must be approved by admin before being displayed to other users. Until approval is obtained, reviews will only be visible to the logged-in users who have written them, with a message saying "this post is waiting for approval". 
 
 Users can also edit their reviews and delete them. 
+
 
 ![Post detail page screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/post-detail.png "post detail screenshot")
 ![First leave review screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/leave-review-1.png "first leave review screenshot")
