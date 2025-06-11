@@ -85,13 +85,26 @@ Each post detail page contains the above information about each site, as well as
 
 Users can also edit their reviews and delete them. 
 
-![Post detail page screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/post-detail.png "post details creenshot")
+![Post detail page screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/post-detail.png "post detail screenshot")
 ![First leave review screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/leave-review-1.png "first leave review screenshot")
 ![Second leave review screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/leave-review-2.png "second leave review screenshot")
 ![First edit review screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/review-edit-1.png "first edit review screenshot")
 ![Second edit review screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/review-edit-2.png "second edit review screenshot")
 ![First delete review screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/review-delete-1.png "first delete review screenshot")
 ![Second delete review screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/review-delete-2.png "second delete review screenshot")
+
+
+## Admin Panel
+
+The admin panel allows users logged in as admin to view, edit, delete and approve posts and reviews, aswell as control user accounts. 
+
+![Admin panel home page screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/admin-panel/admin-panel.png "admin-panel screenshot")
+![Admin panel post list screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/admin-panel/admin-panel-post-list.png "admin-panel post list screenshot")
+![First admin panel post edit screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/admin-panel-post-edit-1.png "first admin panel post edit screenshot")
+![Second admin panel post edit screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/admin-panel-post-edit-2.png "second admin panel post edit screenshot")
+![Admin panel review list screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/admin-panel/admin-panel-review-list.png "admin-panel review list screenshot")
+![First admin panel review edit screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/admin-panel-review-edit-1.png "first admin panel post edit screenshot")
+![Second admin panel review edit screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/admin-panel-review-edit-2.png "second admin panel review edit screenshot")
 
 
 # Deployment 
