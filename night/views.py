@@ -164,14 +164,15 @@ def post_edit(request, post_id):
             messages.add_message(request, messages.ERROR, 'Error updating post!')
 
         return HttpResponseRedirect(reverse('home'))
- 
+
     return render(
         request,
         "night/add_post.html",
         {
             "post_form": post_form,
         },
-    )        
+    )
+
 
 def post_delete(request, post_id):
     """
