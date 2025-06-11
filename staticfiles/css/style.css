@@ -18,6 +18,11 @@ body {
     color: #39373c;
 }
 
+.nav-link {
+    color: #39373c;
+}
+
+
 .light-bg {
     background-color: #bcbfc4;
 }
@@ -85,6 +90,7 @@ body {
 
 .edit-link {
     color: #39373c;
+    text-decoration: none;
 }
 
 .post-link:hover{

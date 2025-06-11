@@ -29,7 +29,7 @@
                                 <h2 class="card-title">{{ post.title }}</h2>
                             </a>
                             {% if user.is_authenticated and post.author == user %}
-                                <button class="btn btn-post-edit" post_id="{{ post.id }}"><a href="{% url 'post_edit' post.id %}">Edit</a></button>
+                                <button class="btn btn-post-edit" post_id="{{ post.id }}"><a href="{% url 'post_edit' post.id %}" class = "edit-link">Edit</a></button>
                                 <button class="btn btn-post-delete" post_id="{{ post.id }}">Delete</button>
                             {% endif %}    
                             {% if not post.approved and post.author == user %}
