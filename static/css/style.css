@@ -15,6 +15,7 @@ body {
 
 .navbar {
     background-color: #fda048;
+    color: #39373c;
 }
 
 .light-bg {
@@ -80,6 +81,10 @@ body {
 .post-link {
     text-decoration: none;
     color: #3c544c;
+}
+
+.edit-link {
+    color: #39373c;
 }
 
 .post-link:hover{
