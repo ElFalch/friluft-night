@@ -125,7 +125,7 @@ def add_post(request):
             replace_space_with_dash(post.slug)
             for c in post.slug:
                 if c.isupper():
-                    post.slug = post.slug.replace(c, "-%s" % c.lower())
+                    post.slug = post.slug.replace(c, c.lower())
             post.save()
             messages.add_message(
                 request, messages.SUCCESS,
