@@ -109,8 +109,8 @@ The admin panel allows users logged in as admin to view, edit, delete and approv
 ![First admin panel post edit screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/admin-panel-post-edit-1.png "first admin panel post edit screenshot")
 ![Second admin panel post edit screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/admin-panel-post-edit-2.png "second admin panel post edit screenshot")
 ![Admin panel review list screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/admin-panel/admin-panel-review-list.png "admin-panel review list screenshot")
-![First admin panel review edit screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/admin-panel-review-edit-1.png "first admin panel post edit screenshot")
-![Second admin panel review edit screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/admin-panel-review-edit-2.png "second admin panel review edit screenshot")
+![First admin panel review edit screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/admin-panel/admin-panel-review-edit-1.png "first admin panel post edit screenshot")
+![Second admin panel review edit screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/admin-panel/admin-panel-review-edit-2.png "second admin panel review edit screenshot")
 
 
 # Deployment 
