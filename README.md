@@ -102,7 +102,7 @@ Users can also edit their reviews and delete them.
 
 ## Admin Panel
 
-The admin panel allows users logged in as admin to view, edit, delete and approve posts and reviews, aswell as control user accounts. 
+The admin panel allows users logged in as admin to view, edit, delete and approve posts and reviews, aswell as control user accounts. Custom images can also be added to the site via Cloudinary. 
 
 ![Admin panel home page screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/admin-panel/admin-panel.png "admin-panel screenshot")
 ![Admin panel post list screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/admin-panel/admin-panel-post-list.png "admin-panel post list screenshot")
