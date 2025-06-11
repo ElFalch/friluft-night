@@ -121,6 +121,11 @@ def add_post(request):
         if post_form.is_valid():
             post = post_form.save(commit=False)
             post.author = request.user
+            post.slug = post.title
+            replace_space_with_dash(post.slug)
+            for c in post.slug:
+                if c.isupper():
+                    post.slug = post.slug.replace(c, "-%s" % c.lower())
             post.save()
             messages.add_message(
                 request, messages.SUCCESS,
