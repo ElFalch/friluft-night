@@ -116,8 +116,8 @@ def add_post(request):
             post = post_form.save(commit=False)
             post.author = request.user
             post.slug = post.title
-            replace_space_with_dash(post.slug)
             for c in post.slug:
+                post.slug = post.slug.replace(" ", "-")
                 if c.isupper():
                     post.slug = post.slug.replace(c, c.lower())
             post.save()
