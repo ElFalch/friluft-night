@@ -10,7 +10,7 @@
         {% if user.is_authenticated %}
         <h3>Add a camping area:</h3>
         <p>Posting as: {{ user.username }}</p>
-        <form id="postForm" method="post"
+        <form enctype="multipart/form-data" id="postForm" method="post"
           style="margin-top: 1.3em;">
           {{ post_form | crispy }}
           {% csrf_token %}
