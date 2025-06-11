@@ -97,13 +97,7 @@ def review_delete(request, slug, review_id):
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
 
-# Function to autofill slug taken from: https://www.shecodes.io/athena/12032-how-to-replace-spaces-with-dashes-in-a-python-string#:~:text=By%20default%2C%20split()%20splits,all%20the%20spaces%20with%20dashes.
-
 # Command to replace uppercase with lowercase letters taken from: https://stackoverflow.com/questions/49901753/converting-uppercase-to-lowercase-with-hyphen
-
-def replace_space_with_dash(string):
-    return "-".join(string.split())
-
 
 def add_post(request):
     """
