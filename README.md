@@ -52,13 +52,21 @@ Default Image:
 
 Navbar: The Bootstrap navbar contains links to the index and login or logout pages of the site and has the Friluft Night logo in its brand. The navbar links collapse down to a burger icon with a dropdown menu on smaller devices.
 
-Footer: A Footer with links to social media accounts, presented as icons. 
+Footer: A Footer with a message saying "Adventure awaits!" 
 
 ## Home Page
 
 The index page is titled "home" and contains the a paginated list of published & approved wild camping spots with images, author and time added information, aswell as links to more details. 
 
+![first index page screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/home-page/index-page.png "first index page screenshot")
+![second index page screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/home-page/index-page2.png "second index page screenshot")
+![third index page screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/home-page/index-page2.png "third index page screenshot")
+
+
 Users can also edit their own posts using the same form as in the add post page, aswell as delete them.
+
+![third index page screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/home-page/index-page2.png "third index page screenshot")
+
 
 ## Add Post
 
