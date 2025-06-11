@@ -58,9 +58,9 @@ Footer: A Footer with a message saying "Adventure awaits!"
 
 The index page is titled "home" and contains the a paginated list of published & approved wild camping spots with images, author and time added information, aswell as links to more details. There are buttons allowing users to edit their own posts and delete them 
 
-![first index page screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/home-page/index-page.png "first index page screenshot")
-![second index page screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/home-page/index-page 2.png "second index page screenshot")
-![third index page screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/home-page/index-page 3.png "third index page screenshot")
+![first index page screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/home-page/index-page-1.png "first index page screenshot")
+![second index page screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/home-page/index-page-2.png "second index page screenshot")
+![third index page screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/home-page/index-page-3.png "third index page screenshot")
 
 
 ![delete post screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/home-page/delete-post.png "delete post screenshot")
@@ -68,16 +68,15 @@ The index page is titled "home" and contains the a paginated list of published &
 
 ### Edit Post 
 
-![First edit post screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/edit-post/edit-post 1.png "first edit post screenshot")
-![Second edit post screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/home-page/index-page2.png "second edit post screenshot")
+![First edit post screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/edit-post/edit-post-1.png "first edit post screenshot")
+![Second edit post screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/home-page/index-page-2.png "second edit post screenshot")
 
 
 ## Add Post
 
 The add post page is titled "recommend" and contains a form which allows users to add a post title, description and image.
 
-![Add post screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/home-page/index-page2.png "second edit post screenshot")
-
+![Add post screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/add-post/add-post-form.png "add post screenshot")
 
 
 ## Post Detail
@@ -85,6 +84,14 @@ The add post page is titled "recommend" and contains a form which allows users t
 Each post detail page contains the above information about each site, as well as a more detailed description, list of reviews and a form for adding reviews (if user is signed in), which must be approved by admin before being displayed to other users. 
 
 Users can also edit their reviews and delete them. 
+
+![Post detail page screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/post-detail.png "post details creenshot")
+![First leave review screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/leave-review-1.png "first leave review screenshot")
+![Second leave review screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/leave-review-2.png "second leave review screenshot")
+![First edit review screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/review-edit-1.png "first edit review screenshot")
+![Second edit review screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/review-edit-2.png "second edit review screenshot")
+![First delete review screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/review-delete-1.png "first delete review screenshot")
+![Second delete review screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/post-detail-page/review-delete-2.png "second delete review screenshot")
 
 
 # Deployment 
