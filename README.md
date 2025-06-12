@@ -122,8 +122,8 @@ The HTML for each page was validated used the [W3C Markup Validator](https://val
 
 | Page          | Result                                                                                                                                                |   
 | ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| index.html    |![Index Page HTML validation](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/html-validation/validation-index-page.png) | 
-| post_detail.html     |![Post Detail Page HTML validation](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/html-validation/validation-post-detail.png)  |
+| index.html    |![Index Page HTML validation](https://github.com/ElFalch/friluft-night/blob/main/static/images/testing/validation/html-validation/validation-index-page.png) | 
+| post_detail.html     |![Post Detail Page HTML validation](https://github.com/ElFalch/friluft-night/blob/main/static/images/testing/validation/html-validation/validation-post-detail.png)  |
 
 
 ### CSS Validation
@@ -132,8 +132,8 @@ The CSS stylesheet was validated using [W3C CSS Validator](https://jigsaw.w3.org
 
 | Summary         | Result                                                                                                                                                |   
 | --------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| No errors found |![friluft Night CSS validation](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/css-validation/validation-css.png)   | 
-| Warnings are the result of Google fonts being used and do not present any issues |![friluft Night CSS validation warnings](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/css-validation/validation-css-warnings.png)|
+| No errors found |![friluft Night CSS validation](https://github.com/ElFalch/friluft-night/blob/main/static/images/testing/validation/css-validation/validation-css.png)   | 
+| Warnings are the result of Google fonts being used and do not present any issues |![friluft Night CSS validation warnings](https://github.com/ElFalch/friluft-night/blob/main/static/images/testing/validation/css-validation/validation-css-warnings.png)|
 
 ### JavaScript Validation 
 
@@ -156,9 +156,9 @@ The total score for performance was 74% for the index page and 99% for the game 
 
 | Page          | Lighthouse Report Summary                                                                                                                             |   
 | ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| index.html    |![Index Page Lighthouse Report Summary](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/lighthouse/lighthouse-summary-home.png)                       | 
-| post_detail.html     |![Post detail Page Lighthouse Report Summary](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/lighthouse/lighthouse-summary-post-detail.png)                     |
-| add_post.html     |![Add Post Page Lighthouse Report Summary](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/lighthouse/lighthouse-summary-add-post.png)                     |
+| index.html    |![Index Page Lighthouse Report Summary](https://github.com/ElFalch/friluft-night/blob/main/static/images/testing/lighthouse/lighthouse-summary-home.png)                       | 
+| post_detail.html     |![Post detail Page Lighthouse Report Summary](https://github.com/ElFalch/friluft-night/blob/main/static/images/testing/lighthouse/lighthouse-summary-post-detail.png)                     |
+| add_post.html     |![Add Post Page Lighthouse Report Summary](https://github.com/ElFalch/friluft-night/blob/main/static/images/testing/lighthouse/lighthouse-summary-add-post.png)                     |
 
 #### Lighthouse performance report diagnostics
 
@@ -168,7 +168,7 @@ Other significant negative influences upon Lighthouse performance scores were re
 
 | Page          | Lighthouse Report Diagnostics                                                                                                                         |   
 | ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| index.html    |![Index Page Lighthouse Report Diagnostics](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/lighthouse/home-lighthouse-diagnostics.png)                   | 
+| index.html    |![Index Page Lighthouse Report Diagnostics](https://github.com/ElFalch/friluft-night/blob/main/static/images/testing/lighthouse/home-lighthouse-diagnostics.png)                   | 
 
 
 ## Manual Testing 
