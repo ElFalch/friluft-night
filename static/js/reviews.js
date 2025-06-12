@@ -10,7 +10,7 @@ const reviewDeleteConfirm = document.getElementById("reviewDeleteConfirm");
 /**
 * Initializes edit functionality for the provided edit buttons.
 * 
-* For each button in the `editButtons` collection:
+* For each button in the `reviewEditButtons` collection:
 * - Retrieves the associated review's ID upon click.
 * - Fetches the content of the corresponding review.
 * - Populates the `reviewText` input/textarea with the review's content for editing.
@@ -30,10 +30,10 @@ for (let button of reviewEditButtons) {
 /**
 * Initializes deletion functionality for the provided delete buttons.
 * 
-* For each button in the `deleteButtons` collection:
-* - Retrieves the associated comment's ID upon click.
-* - Updates the `deleteConfirm` link's href to point to the 
-* deletion endpoint for the specific comment.
+* For each button in the `reviewDeleteButtons` collection:
+* - Retrieves the associated review's ID upon click.
+* - Updates the `reviewDeleteConfirm` link's href to point to the 
+* deletion endpoint for the specific review.
 * - Displays a confirmation modal (`deleteModal`) to prompt 
 * the user for confirmation before deletion.
 */

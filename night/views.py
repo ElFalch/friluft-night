@@ -6,7 +6,7 @@ from .models import Post, Review
 from .forms import ReviewForm
 from .forms import PostForm
 
-# Create your views here.
+# views are here.
 
 
 class PostList(generic.ListView):

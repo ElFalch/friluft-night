@@ -238,7 +238,9 @@ Once posts have been added, they will not be displayed to other users until they
 
 ## Post Detail
 
-Each post detail page contains the above information about each site, as well as a more detailed description, list of reviews and a form for adding reviews (if user is signed in), which must be approved by admin before being displayed to other users. Until approval is obtained, reviews will only be visible to the logged-in users who have written them, with a message saying "this post is waiting for approval". 
+Each post detail page contains the summary information on the home page, as well as a more detailed description, list of reviews and a form for adding reviews (if user is signed in). 
+
+Reviews must be approved by admin before being displayed to other users. Until approval is obtained, reviews will only be visible to the logged-in users who have written them, with a message saying "this post is waiting for approval". 
 
 Users can also edit their reviews and delete them. 
 

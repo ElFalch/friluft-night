@@ -10,12 +10,12 @@ const postDeleteConfirm = document.getElementById("postDeleteConfirm");
 /**
 * Initializes edit functionality for the provided edit buttons.
 * 
-* For each button in the `editButtons` collection:
-* - Retrieves the associated comment's ID upon click.
-* - Fetches the content of the corresponding comment.
-* - Populates the `commentText` input/textarea with the comment's content for editing.
+* For each button in the `postEditButtons` collection:
+* - Retrieves the associated post's ID upon click.
+* - Fetches the content of the corresponding post.
+* - Populates the `postText` input/textarea with the post's content for editing.
 * - Updates the submit button's text to "Update".
-* - Sets the form's action attribute to the `edit_comment/{commentId}` endpoint.
+* - Sets the form's action attribute to the `edit_post/{postId}` endpoint.
 */ 
 for (let button of postEditButtons) {
   button.addEventListener("click", (e) => {
@@ -30,11 +30,11 @@ for (let button of postEditButtons) {
 /**
 * Initializes deletion functionality for the provided delete buttons.
 * 
-* For each button in the `deleteButtons` collection:
+* For each button in the `postDeleteButtons` collection:
 * - Retrieves the associated posts's ID upon click.
-* - Updates the `deleteConfirm` link's href to point to the 
+* - Updates the `postDeleteConfirm` link's href to point to the 
 * deletion endpoint for the specific post.
-* - Displays a confirmation modal (`deleteModal`) to prompt 
+* - Displays a confirmation modal (`postDeleteModal`) to prompt 
 * the user for confirmation before deletion.
 */
 for (let button of postDeleteButtons) {
