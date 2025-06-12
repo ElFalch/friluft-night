@@ -225,6 +225,7 @@ A form, prepopulated with the information from the post selected to edit allows 
 
 ![First edit post screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/edit-post/edit-post-1.png "first edit post screenshot")
 ![Second edit post screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/edit-post/edit-post-2.png "second edit post screenshot")
+![Third edit post screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/edit-post/edit-post-3.png "third edit post screenshot")
 
 
 ## Add Post
