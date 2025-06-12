@@ -221,7 +221,7 @@ There are buttons allowing users to edit their own posts and delete them, aswell
 
 ### Edit Post 
 
-A form, prepopulated with the information from the post selected to edit allows users to make any changes they need, but only if they adhere to the coditins of the form. 
+A form, prepopulated with the information from the post selected to edit allows users to make any changes they need, but only if they adhere to the conditions of the form. 
 
 ![First edit post screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/edit-post/edit-post-1.png "first edit post screenshot")
 ![Second edit post screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/edit-post/edit-post-2.png "second edit post screenshot")
