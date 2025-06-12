@@ -156,9 +156,9 @@ The total score for performance was 74% for the index page and 99% for the game 
 
 | Page          | Lighthouse Report Summary                                                                                                                             |   
 | ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| index.html    |![Index Page Lighthouse Report Summary](https://github.com/ElFalch/friluft-night/blob/main/static/images/testing/lighthouse/lighthouse-summary-home.png)                       | 
-| post_detail.html     |![Post detail Page Lighthouse Report Summary](https://github.com/ElFalch/friluft-night/blob/main/static/images/testing/lighthouse/lighthouse-summary-post-detail.png)                     |
-| add_post.html     |![Add Post Page Lighthouse Report Summary](https://github.com/ElFalch/friluft-night/blob/main/static/images/testing/lighthouse/lighthouse-summary-add-post.png)                     |
+| index.html    |![Index Page Lighthouse Report Summary](https://github.com/ElFalch/friluft-night/blob/main/static/images/testing/lighthouse-testing/lighthouse-summary-home.png)                       | 
+| post_detail.html     |![Post detail Page Lighthouse Report Summary](https://github.com/ElFalch/friluft-night/blob/main/static/images/testing/lighthouse-testing/lighthouse-summary-post-detail.png)                     |
+| add_post.html     |![Add Post Page Lighthouse Report Summary](https://github.com/ElFalch/friluft-night/blob/main/static/images/testing/lighthouse-testing/lighthouse-summary-add-post.png)                     |
 
 #### Lighthouse performance report diagnostics
 
@@ -168,7 +168,7 @@ Other significant negative influences upon Lighthouse performance scores were re
 
 | Page          | Lighthouse Report Diagnostics                                                                                                                         |   
 | ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| index.html    |![Index Page Lighthouse Report Diagnostics](https://github.com/ElFalch/friluft-night/blob/main/static/images/testing/lighthouse/lighthouse-home-diagnostics.png)                   | 
+| index.html    |![Index Page Lighthouse Report Diagnostics](https://github.com/ElFalch/friluft-night/blob/main/static/images/testing/lighthouse-testing/lighthouse-home-diagnostics.png)                   | 
 
 
 ## Manual Testing 
