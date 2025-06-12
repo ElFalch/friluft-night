@@ -24,7 +24,7 @@ The user stories for this project can be found [here](https://github.com/users/E
 
 ![Friluft Night colour palette](https://github.com/ElFalch/friluft-night/blob/main/static/images/colour-palette/friluft-night.png "Friluft Night colour palette")
 
-Colours used reflect those in the default image, creating a bright, natural look. White is also used to make text stand out, making the website easier to use whilst being complimentary with the main colour scheme. 
+Colours used reflect those in the default image, creating a bright, natural look. White, bright blue and red are also used to make text, buttons and links stand out, making the website easier to use whilst being complimentary with the main colour scheme. 
 
 ### Fonts 
 
