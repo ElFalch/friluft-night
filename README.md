@@ -122,8 +122,8 @@ The HTML for each page was validated used the [W3C Markup Validator](https://val
 
 | Page          | Result                                                                                                                                                |   
 | ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| index.html    |![Index Page HTML validation](https://github.com/ElFalch/friluft-night/blob/main/static/images/testing/validation/html-validation/validation-index-page.png) | 
-| post_detail.html     |![Post Detail Page HTML validation](https://github.com/ElFalch/friluft-night/blob/main/static/images/testing/validation/html-validation/validation-post-detail.png)  |
+| index.html    |![Index Page HTML validation](https://github.com/ElFalch/friluft-night/blob/main/static/images/testing/validation/html-validation/validation-html-index.png) | 
+| post_detail.html     |![Post Detail Page HTML validation](https://github.com/ElFalch/friluft-night/blob/main/static/images/testing/validation/html-validation/validation-html-post-detail.png)  |
 
 
 ### CSS Validation
