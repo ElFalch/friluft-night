@@ -140,13 +140,9 @@ The CSS stylesheet was validated using [W3C CSS Validator](https://jigsaw.w3.org
 
 The JavaScript for this project was validated using [JSHint](https://jshint.com/). No errors or warnings were found.
 
-#### posts.js
+### Python Validation 
 
-![](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/js-validation/post-js-validation.png)
-
-#### reviews.js
-
-![](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/js-validation/review-js-validation.png)
+The Python written for this project was validated using [Code Institute Python Linter](https://pep8ci.herokuapp.com/). No errors or warnings were found.
 
 
 ## Automated Testing 
