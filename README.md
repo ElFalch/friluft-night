@@ -1,6 +1,157 @@
+
 # Friluft Night 
 
 The purpose of this website is to provide a platform where people can find, share and review wild camping areas. 
+
+
+## Contents 
+
+1. <details open>
+    <summary><a href="#ux">UX</a></summary>
+
+    <ul>
+    <li><details>
+    <summary><a href="#goals">Goals</a></summary>
+
+    - [Target Audience](#target-audience)
+    - [User Stories](#user-stories)
+
+    </details></li>
+
+    <li><details>
+    <summary><a href="#visual-design">Visual Design</a></summary>
+
+    - [Colours](#colours)
+    - [Fonts](#fonts)
+    - [Icons](#icons)
+    - [Images](#images)
+
+      </details></li>
+
+    </ul>
+
+</details>
+
+2. <details open>
+    <summary><a href="#page-elements">Page Elements</a></summary>
+
+    <ul>
+
+    <li>
+
+    <summary><a href="#all-pages">All Pages</a></summary>
+    
+    </li>
+
+    <li>
+
+    <summary><a href="#home-page">Home Page</a></summary>
+
+    </li>
+
+    <li>
+
+    <summary><a href="#edit-post">Edit Post</a></summary>
+
+    </li>
+
+    <li>
+
+    <summary><a href="#add-post">Add Post</a></summary>
+
+    </li>
+
+    <li>
+
+    <summary><a href="#post-detail">Post Detail</a></summary>
+
+    </li>
+
+    <li>
+
+    <summary><a href="#admin-panel">Admin Panel</a></summary>
+
+    </li>
+
+
+    </ul>
+    </details>
+
+
+3. <details open>
+    <summary><a href="#testing">Testing</a></summary>
+
+    <ul>
+
+    <li><details>
+    <summary><a href="#validation">Validation</a></summary> 
+
+    - [HTML Validation](#html-validation)
+    - [CSS Validation](#css-validation)
+    - [JavaScript Validation](#javascript-validation)
+    - [Python Validation](#python-validation)
+
+    </details></li>
+
+    <li><details>
+    <summary><a href="#automated-testing">Automated Testing</a></summary>
+
+    - [Lighthouse Testing](#lighthouse-testing)
+
+    </details></li>
+
+    <li>
+
+    <summary><a href="#manual-testing">Manual Testing</a></summary>
+
+    </li>
+</ul>
+</details>
+
+4. <details open>
+    <summary><a href="#deployment">Deployment</a></summary>
+    <ul>
+
+    <li>
+
+    <summary><a href="#forking-the-github-repository">Forking the Github Repository</a></summary>
+
+    </li>
+
+    <li><details>
+    <summary><a href="#local-deployment">Local Deployment</a></summary> 
+
+    - [Cloning Your Repository to Visual Studio Code](#cloning-your-repository-to-visual-studio-code)
+
+    </details></li>
+
+    <li>
+
+    <summary><a href="#heroku-deployment">Heroku Deployment</a></summary>
+    
+    </li>
+</ul>
+</details>
+
+5. <details open>
+    <summary><a href="#attributions">Attributions</a></summary>
+
+    <ul>
+
+    <li>
+
+    - [Frameworks Used](#frameworks-used)
+    - [Libraries Used](#libraries-used)
+    - [Other Tools Used](#other-tools-used)
+    - [Code From External Sources](#code-from-external-sources)
+    - [Images](#images)
+
+</li>
+
+</ul>
+
+</details>
+
 
 # UX 
 
@@ -253,6 +404,10 @@ python manage.py runserver
 - [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) messages were used to describe each stage of the development of this project in a clear, consistant format. 
 
 ## Code from external sources
+
+- Site layout, styling, Javascript and Python (bar a few small styling changes and the ability for normal users to add, edit and delete posts) taken from the Code Institute "I Think Therefore I Blog" walkthrough project.
+
+- General structure and code for dropdown menu contents section of ReadMe taken from the GitHub repository [horizon-photo](https://github.com/Ri-Dearg/horizon-photo/tree/main)
 
 
 # Images
