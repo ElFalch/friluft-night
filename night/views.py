@@ -77,7 +77,8 @@ def review_edit(request, slug, review_id):
             review.save()
             messages.add_message(request, messages.SUCCESS, 'Review Updated!')
         else:
-            messages.add_message(request, messages.ERROR, 'Error updating review!')
+            messages.add_message(request, messages.ERROR,
+                                 'Error updating review!')
 
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
@@ -92,12 +93,14 @@ def review_delete(request, slug, review_id):
         review.delete()
         messages.add_message(request, messages.SUCCESS, 'Review deleted!')
     else:
-        messages.add_message(request, messages.ERROR, 'You can only delete your own reviews!')
+        messages.add_message(request, messages.ERROR,
+                             'You can only delete your own reviews!')
 
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
 
-# Command to replace uppercase with lowercase letters taken from: https://stackoverflow.com/questions/49901753/converting-uppercase-to-lowercase-with-hyphen
+# Command to replace uppercase with lowercase letters taken from:
+# https://stackoverflow.com/questions/49901753/converting-uppercase-to-lowercase-with-hyphen
 
 def add_post(request):
     """
@@ -155,7 +158,8 @@ def post_edit(request, post_id):
             post.save()
             messages.add_message(request, messages.SUCCESS, 'Post Updated!')
         else:
-            messages.add_message(request, messages.ERROR, 'Error updating post!')
+            messages.add_message(request, messages.ERROR,
+                                 'Error updating post!')
 
         return HttpResponseRedirect(reverse('home'))
 
@@ -178,6 +182,7 @@ def post_delete(request, post_id):
         post.delete()
         messages.add_message(request, messages.SUCCESS, 'Post deleted!')
     else:
-        messages.add_message(request, messages.ERROR, 'You can only delete your own post!')
+        messages.add_message(request, messages.ERROR,
+                             'You can only delete your own post!')
 
     return HttpResponseRedirect(reverse('home'))
