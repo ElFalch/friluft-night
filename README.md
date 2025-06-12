@@ -331,7 +331,7 @@ Manual testing was carried out to ensure all links, forms and JavaScript element
 
 # Deployment 
 
-This project was deployed to Heroku. The deployed site can be found here.
+This project was deployed to Heroku. The deployed site can be found [here](https://friluft-night-app-4e8c3a45356d.herokuapp.com/).
 
 ## Forking the GitHub Repository
 
