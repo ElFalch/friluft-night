@@ -78,7 +78,7 @@ A form, prepopulated with the information from the post selected to edit allows 
 
 ## Add Post
 
-The add post page is titled "recommend" and contains a form which allows users to add a post title, description and image (if they are signed in). 
+The add post page is titled "Recommend" and contains a form which allows users to add a post title, description and image (if they are signed in). 
 
 ![Add post screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/add-post/add-post-form.png "add post screenshot")
 
@@ -143,7 +143,7 @@ This project was deployed to Heroku. The deployed site can be found here.
 
 5. In the VS code terminal, enter git clone and paste the URL with a space and full stop at the end. For example:
 
-git clone https://github.com/ElFalch/seabird-survey-simulator.git .
+git clone https://github.com/ElFalch/friluft-night.git .
 
 6. You should now see the repository files on the left hand side of the screen and be able to push changes to Git.
 
