@@ -6,6 +6,8 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+/* Navbar brand */
+
 .brand {
     font-family: "Fugaz One", sans-serif;
     font-size: 1.4rem;
@@ -61,6 +63,8 @@ body {
     margin: 4px;
     text-transform: uppercase;
 }
+
+/* masthead banner for post detail pages */
 
 .masthead {
     margin-top: 10px;
