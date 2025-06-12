@@ -168,7 +168,7 @@ Other significant negative influences upon Lighthouse performance scores were re
 
 | Page          | Lighthouse Report Diagnostics                                                                                                                         |   
 | ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| index.html    |![Index Page Lighthouse Report Diagnostics](https://github.com/ElFalch/friluft-night/blob/main/static/images/testing/lighthouse/home-lighthouse-diagnostics.png)                   | 
+| index.html    |![Index Page Lighthouse Report Diagnostics](https://github.com/ElFalch/friluft-night/blob/main/static/images/testing/lighthouse/lighthouse-home-diagnostics.png)                   | 
 
 
 ## Manual Testing 
