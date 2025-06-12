@@ -121,34 +121,10 @@ body {
     color: #fda048;
 }
 
-.link {
-    color: #fda048;
-    text-decoration: none;
-}
-
-.link:hover,
-.link:active {
-    color: #445261;
-    text-decoration: underline;
-}
-
-.btn-like {
-    color: #E84610;
-    border: none;
-    background: transparent;
-}
-
 .btn-review-delete,
 .btn-post-delete {
     color: #fff;
-    background: #E84610;
-}
-
-.btn-like:hover,
-.btn-like:active {
-    color: #E84610;
-    background: transparent;
-    border: none;
+    background: #e84610;
 }
 
 
