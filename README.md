@@ -255,7 +255,19 @@ python manage.py runserver
 ## Code from external sources
 
 
+# Images
 
-## Images
+
+## Local Images
 
 - image used to create favicons: tweemoji, copyright 2020 Twitter. Licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+- default.jpg: [Photo by Teemu R](https://www.pexels.com/photo/photo-of-tent-by-the-beach-1840394/)
+
+## Cloudinary Images
+
+- Beehive Bothy: [Photo by Miro Alt](https://www.pexels.com/photo/orange-camping-tent-near-body-of-water-during-daytime-176381/)
+
+- Campsite by Loch Ochiltree: [Photo by Olga Lioncat](https://www.pexels.com/photo/cloudy-sky-over-mountains-and-river-7244512/)
+
+- Quiraing: [Photo by Anna Urlapova](https://www.pexels.com/photo/man-standing-on-a-rock-2975445/)
