@@ -73,14 +73,14 @@ There are buttons allowing users to edit their own posts and delete them, aswell
 A form, prepopulated with the information from the post selected to edit allows users to make any changes they need, but only if they adhere to the coditins of the form. 
 
 ![First edit post screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/edit-post/edit-post-1.png "first edit post screenshot")
-![Second edit post screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/home-page/index-page-2.png "second edit post screenshot")
+![Second edit post screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/edit-post/edit-post-2.png "second edit post screenshot")
 
 
 ## Add Post
 
 The add post page is titled "Recommend" and contains a form which allows users to add a post title, description and image (if they are signed in). 
 
-![Add post screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/add-post/add-post-form.png "add post screenshot")
+![Add post screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/add-post-form/add-post-form.png "add post screenshot")
 
 Once posts have been added, they will not be displayed to other users until they have been approved by admin. Until approval is obtained, posts will only be visible to logged-in users who have written them with a message saying "this post is waiting for approval". 
 
@@ -122,9 +122,8 @@ The HTML for each page was validated used the [W3C Markup Validator](https://val
 
 | Page          | Result                                                                                                                                                |   
 | ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| index.html    |![Index Page HTML validation](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/html-validation/index-page-validation.png) | 
-| post_detail.html     |![Post Detail Page HTML validation](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/html-validation/post-detail-page-validation.png)  |
-| add_post.html     |![Add Post Page HTML validation](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/html-validation/add-post-page-validation.png)  |
+| index.html    |![Index Page HTML validation](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/html-validation/validation-index-page.png) | 
+| post_detail.html     |![Post Detail Page HTML validation](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/html-validation/validation-post-detail.png)  |
 
 
 ### CSS Validation
@@ -133,8 +132,8 @@ The CSS stylesheet was validated using [W3C CSS Validator](https://jigsaw.w3.org
 
 | Summary         | Result                                                                                                                                                |   
 | --------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| No errors found |![friluft Night CSS validation](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/css-validation/css-validation.png)   | 
-| Warnings are the result of Google fonts being used and do not present any issues |![](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/css-validation/css-warnings.png)|
+| No errors found |![friluft Night CSS validation](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/css-validation/validation-css.png)   | 
+| Warnings are the result of Google fonts being used and do not present any issues |![friluft Night CSS validation warnings](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/css-validation/validation-css-warnings.png)|
 
 ### JavaScript Validation 
 
