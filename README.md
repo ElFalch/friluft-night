@@ -201,7 +201,7 @@ Default Image:
 
 ## All Pages 
 
-Navbar: The Bootstrap navbar contains links to the index and login or logout pages of the site and has the Friluft Night logo in its brand. The navbar links collapse down to a burger icon with a dropdown menu on smaller devices.
+Navbar: The Bootstrap navbar contains links to the index, recommend and login or logout pages of the site and has the Friluft Night logo in its brand. The navbar links collapse down to a burger icon with a dropdown menu on smaller devices.
 
 Footer: A Footer with a message saying "Adventure awaits!" 
 
