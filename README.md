@@ -112,6 +112,76 @@ The admin panel allows users logged in as admin to view, edit, delete and approv
 ![Admin panel review edit screenshot](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/admin-panel/admin-panel-edit-review.png "admin panel post edit screenshot")
 
 
+# Testing
+
+## Validation 
+
+### HTML Validation
+
+The HTML for each page was validated used the [W3C Markup Validator](https://validator.w3.org/). No errors or warnings were found for the index page, however for the game page, errors occured because of empty src values for the port and starboard bird images. As the game is played the inner html of these images is filled and these errors disappear.
+
+| Page          | Result                                                                                                                                                |   
+| ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| index.html    |![Index Page HTML validation](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/html-validation/index-page-validation.png) | 
+| post_detail.html     |![Post Detail Page HTML validation](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/html-validation/post-detail-page-validation.png)  |
+| add_post.html     |![Add Post Page HTML validation](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/html-validation/add-post-page-validation.png)  |
+
+
+### CSS Validation
+
+The CSS stylesheet was validated using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+| Summary         | Result                                                                                                                                                |   
+| --------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| No errors found |![friluft Night CSS validation](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/css-validation/css-validation.png)   | 
+| Warnings are the result of Google fonts and css prefixes being used and do not present any issues |![](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/css-validation/css-warnings.png)|
+
+### JavaScript Validation 
+
+The JavaScript for this project was validated using [JSHint](https://jshint.com/). No errors or warnings were found.
+
+#### posts.js
+
+![](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/js-validation/post-js-validation.png)
+
+#### reviews.js
+
+![](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/js-validation/review-js-validation.png)
+
+
+## Automated Testing 
+
+### Lighthouse 
+
+Automated testing of the deployed site for performance, accessibility and best practises was conducted using the [Lighthouse tool](https://developer.chrome.com/docs/lighthouse) within Chrome DevTools.  
+
+#### Lighthouse Report Summaries
+
+The total score for performance was 74% for the index page and 99% for the game page. The total score for accessibility and best practices was 100% for both of the pages. 
+
+| Page          | Lighthouse Report Summary                                                                                                                             |   
+| ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| index.html    |![Index Page Lighthouse Report Summary](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/lighthouse/lighthouse-summary-home.png)                       | 
+| post_detail.html     |![Post detail Page Lighthouse Report Summary](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/lighthouse/lighthouse-summary-post-detail.png)                     |
+| add_post.html     |![Add Post Page Lighthouse Report Summary](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/lighthouse/lighthouse-summary-add-post.png)                     |
+
+#### Lighthouse performance report diagnostics
+
+The main negative influence upon Lighthouse performance scores for this site was the large size of some bird images. However, images were optimised and their size was reduced as much as possible whilst allowing users to easily identify the species depicted. Given the importance of clear images to the game, and that each page loads fairly quickly with an overall performance score of atleast 70%, it was decided to not reduce the size of the images any further. 
+
+Other significant negative influences upon Lighthouse performance scores were related to the loading of external libraries, so couldn't be resolved without removing the content of the website, something which wasn't attempted due to the already high overall performance scores of each page. 
+
+| Page          | Lighthouse Report Diagnostics                                                                                                                         |   
+| ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| index.html    |![Index Page Lighthouse Report Diagnostics](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/lighthouse/home-lighthouse-diagnostics.png)                   | 
+
+
+## Manual Testing 
+
+Manual testing was carried out to ensure all links, forms and JavaScript elements of the site worked as intended. Device mode in [Chrome DevTools](https://developer.chrome.com/docs/devtools) was used to ensure that the design was responsive and that features were fully functional across all device sizes. 
+
+
+
 # Deployment 
 
 This project was deployed to Heroku. The deployed site can be found here.
