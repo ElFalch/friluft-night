@@ -408,7 +408,7 @@ python manage.py runserver
 
 ## Code from external sources
 
-- Site layout, styling, Javascript and Python taken from the Code Institute "I Think Therefore I Blog" walkthrough project, bar a few small styling changes and the ability for normal users to add, edit and delete posts.
+- Site layout, setup, styling, Javascript and Python taken from the Code Institute "I Think Therefore I Blog" walkthrough project, bar a few small styling changes and the ability for normal users to add, edit and delete posts.
 
 - General structure and code for dropdown menu contents section of ReadMe taken from the GitHub repository [horizon-photo](https://github.com/Ri-Dearg/horizon-photo/tree/main)
 
