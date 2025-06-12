@@ -118,7 +118,7 @@ The admin panel allows users logged in as admin to view, edit, delete and approv
 
 ### HTML Validation
 
-The HTML for each page was validated used the [W3C Markup Validator](https://validator.w3.org/). No errors or warnings were found for the index page, however for the game page, errors occured because of empty src values for the port and starboard bird images. As the game is played the inner html of these images is filled and these errors disappear.
+The HTML for each page was validated used the [W3C Markup Validator](https://validator.w3.org/). For the index and post detail pages, errors occured because of django template language linking each post and review edit button to the relevant posts and reviews, something which does not present any issues. All other site pages did not present any errors upon validation. 
 
 | Page          | Result                                                                                                                                                |   
 | ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
@@ -152,7 +152,7 @@ Automated testing of the deployed site for performance, accessibility and best p
 
 #### Lighthouse Report Summaries
 
-The total score for performance was 74% for the index page and 99% for the game page. The total score for accessibility and best practices was 100% for both of the pages. 
+The total score for performance was 97% for the index page, 98% for the post detail page and 100% for the add post page. The index and post detail pages were scored 78% for best practices. 
 
 | Page          | Lighthouse Report Summary                                                                                                                             |   
 | ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
@@ -162,13 +162,11 @@ The total score for performance was 74% for the index page and 99% for the game 
 
 #### Lighthouse performance report diagnostics
 
-The main negative influence upon Lighthouse performance scores for this site was the large size of some bird images. However, images were optimised and their size was reduced as much as possible whilst allowing users to easily identify the species depicted. Given the importance of clear images to the game, and that each page loads fairly quickly with an overall performance score of atleast 70%, it was decided to not reduce the size of the images any further. 
-
-Other significant negative influences upon Lighthouse performance scores were related to the loading of external libraries, so couldn't be resolved without removing the content of the website, something which wasn't attempted due to the already high overall performance scores of each page. 
+Cookies relating to cloudinary image storage caused the relatively low best practises score for the index and post detail pages.
 
 | Page          | Lighthouse Report Diagnostics                                                                                                                         |   
 | ------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
-| index.html    |![Index Page Lighthouse Report Diagnostics](https://github.com/ElFalch/friluft-night/blob/main/static/images/testing/lighthouse-testing/lighthouse-home-diagnostics.png)                   | 
+| index.html & post_detail.html   |![Index Page Lighthouse Report Diagnostics](https://github.com/ElFalch/friluft-night/blob/main/static/images/testing/lighthouse-testing/lighthouse-diagnostics.png)                   | 
 
 
 ## Manual Testing 
