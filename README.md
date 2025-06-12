@@ -134,7 +134,7 @@ The CSS stylesheet was validated using [W3C CSS Validator](https://jigsaw.w3.org
 | Summary         | Result                                                                                                                                                |   
 | --------------- |:-----------------------------------------------------------------------------------------------------------------------------------------------------:| 
 | No errors found |![friluft Night CSS validation](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/css-validation/css-validation.png)   | 
-| Warnings are the result of Google fonts and css prefixes being used and do not present any issues |![](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/css-validation/css-warnings.png)|
+| Warnings are the result of Google fonts being used and do not present any issues |![](https://github.com/ElFalch/friluft-night/blob/main/static/images/feature-images/testing/validation/css-validation/css-warnings.png)|
 
 ### JavaScript Validation 
 
