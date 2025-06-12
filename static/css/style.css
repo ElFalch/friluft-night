@@ -20,13 +20,10 @@ body {
     color: #39373c;
 }
 
+/* Navbar links */
+
 .nav-link {
     color: #39373c;
-}
-
-
-.light-bg {
-    background-color: #bcbfc4;
 }
 
 .dark-bg {
@@ -131,11 +128,7 @@ body {
     background: #e84610;
 }
 
-
-.approval  {
-    color: rgb(172, 175, 175);
-}
-
-.faded {
+.approval,
+.faded  {
     color: rgb(172, 175, 175);
 }
